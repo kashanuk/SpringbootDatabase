@@ -3,7 +3,7 @@ package net.javaguides.springboot.entity;
 import jakarta.persistence.*;
 
 
-
+//23 JPA PERSISTANCE // EXPLAIN THE ENTIRE USER ENTITY
 @Entity// from jakarta persistence package
 @Table(name = "users") // TO CONFIGURE THE TABLE NAME AS USER, IF YOU DONT PROVIDE IT THE NAME THE CLASS NAME
 // TABLE WILL BE CREATED BY DEFAULT, WE ARE CUSTOMIZING THE TABLE NAME, WE CAN ALSO DEFINE THE SCHEMA RELATED
